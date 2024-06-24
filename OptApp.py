@@ -133,7 +133,7 @@ class Chatbot:
 
 
     def upload_docs(self):
-        folder_path = '/Users/nikhil/Desktop/AB-InBev/Chatbot1/pdf-folder' 
+        folder_path = 'PATH' 
         files = self.list_files_in_folder(folder_path)
         print("Files in folder:", files)
         text = self.get_pdf_text(files) 
